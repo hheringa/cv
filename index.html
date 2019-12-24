@@ -1,71 +1,281 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <title>Herman Heringa </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Two-Sigma</title>
 </head>
 
 <body>
-  <table cellspacing="30">
-    <tr>
-      <td><img src="images/ace.jpg" alt="Mijn hero picture"></td>
-      <td><h1>Herman Heringa: Mijn website</h1>
-      <p><em><strong>Senior onderwijskundig adviseur</strong> bij de Hogeschool van Amsterdam</em></p>
-      <p>
-        Ik ben ge&iumlnteresseerd in de vraag hoe en waarom mensen leren.<br>
-        Als hobbies heb ik MTB-trails rijden en <a href="https://www.ehst.nl/">vliegen</a> op micro light vliegtuigjes
-      </p></td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Opleidingen</h2>
-  <ul>
-    <li>Hogere Zeevaart School</li>
-    <li>Opleiding officier jachtvlieger KLu</li>
-    <li>Leraren opleidingen wiskunde, natuurkunde en informatica</li>
-    <li>Post HBO opleiding datacommunicatie</li>
-    <li>doctoraal opleiding pedagogiek/onderwijskunde</li>
-  </ul>
-  <hr size="5" noshade>
-  <table border="2">
-    <thead>
-      <th>Jaren</td>
-      <th>Functie</td>
-    </thead>
-    <tr>
-      <td>1963-1965</td>
-      <td>Stuurman KJCPL</td>
-    </tr>
-    <tr>
-      <td>1965-1973</td>
-      <td>Jachtvlieger KLu</td>
-    </tr>
-  </table>
-<h3>Vaardigheden</h3>
-  <table>
-    <tr>
-      <td>vliegen</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>programmeren</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>varen</td>
-      <td>⭐⭐⭐</td>
-      <td>webdesign</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
-  <hr size="5" noshade>
-  <a href="contact.html">Contact </a><br><br>
-  <form class="" action="index.html" method="post">
-    <label>Login naam: </label>
-    <input type="text" name="" value=""><br>
-    <label>Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="password" name="" value=""><br>
-    <input type="submit" name="" value="Log in">
-  </form>
+  <a name=terug></a>
+  <section id="titel">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Two-Sigma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown-divider"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#mij" class="nav-link">Over mij</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Essays
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#Vergankelijkheid">Vergankelijkheid</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#kontakt" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <br><br>
+          <img class "plaatje" src="2sigma.jpg" alt="2S" width="450" height="450">
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <h1>Two Sigma: De oplossing</h1>
+          <p>
+            De onderwijskundige Bloom schreef in 1984 een artikel onder de naam ‘The two sigma problem’.
+            Het ging over zijn onderzoek dat had uitgewezen dat tutoring tot veel betere leerprestaties zou
+            leiden dan klassikaal onderwijs. Een verschil van twee maal de standaard-afwijking (2σ).
+            Dat wil zeggen dat leerlingen die individueel onderwijs krijgen gemiddeld net zo goed zullen
+            presteren als de op een na beste uit een standaardklas van 30.
+            Als oplossing stelt hij mastery learning voor, een onderwijsvorm waarbij leerstof
+            wordt opgedeeld in kleine blokjes. Aan het einde van elk daarvan volgt een toets en alleen bij een
+            score van tenminste 80% mag de leerling verder met de volgende module.
+          </p>
+          <p>
+            In mijn doctoraalscriptie: Innovaties (1995) is een onderzoek naar een experiment met dit systeem
+            in Nederland te vinden. Ook deze vernieuwing bleek mislukt en we hebben er sindsdien dan ook
+            nauwelijks meer over gehoord. Er is eigenlijk nooit een bruikbaar alternatief gevonden voor de
+            kracht van een-op-een onderwijs.
+          </p>
+          <p>
+            Gelukkig is individueel onderwijs best te realiseren. Zelfs tegen lagere kosten.
+            En ook andere vormen van massaproductie en collectivistische stelsels kunnen vervangen worden door
+            modi van ordening die effectiever, vriendelijker voor het millieu en, ook en vooral, uitdagender zijn
+            voor mens. We hoeven dit alles trouwens niet aan de overheid over te laten. Iedereen die wil
+            kan zich op eigen kracht bevrijden uit het grauwe midden. En als een pelgrim afreizen naar zijn zelf
+            gekozen 'sacrale' bestemming. Het persoonlijk +2σ-domein.
+          </p>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </div>
+
+      <a name=mij></a>
+      <div class="container-fluid">
+        <h1>Over mij</h1>
+        <p>
+          Toen ik vijftien was leek het me de hoogste tijd om eens iets nuttigs te leren. Dus ging ik van school,
+          monsterde aan op een oud stoomschip en trok de wijde wereld in. Dat ik me later zo intens en van harte
+          met onderwijs heb bezig gehouden is dan ook waarschijnlijk te danken aan het feit dat ik er in mijn
+          gevoelige jaren minimaal aan ben blootgesteld.
+          Toegegeven: helemaal ‘schoolvrij’ ben ik niet gebleven. Maar de opleidingen die ik volgde waren wel
+          steeds zo kort mogelijk, vrijwel altijd tijdens of naast het werk en steeds in directe relatie daarmee.
+          Om als stuurman te kunnen varen heb je nu eenmaal een Hogere Zeevaart School nodig, om met straaljagers
+          van onze luchtmacht rond te mogen raggen moet je daar eerst een vliegeropleiding voor doen en voor het
+          werken in de informaticasector hadden ze zelfs in de jaren zeventig al allerlei opleidingstrajecten.
+          Om les te mogen geven is een lerarenopleiding nodig en wil je her en der ook nog wat onderwijskundige
+          wijsneuzigheden debiteren dan vindt men een doctoraal pedagogische wetenschappen wel gewenst.
+          Na de jeugdberoepen varen en vliegen, heb ik mijn leven verder alleen nog maar aan onderwijs gewijd.
+          En na een jaar of vijftien wilde ik dus eigenlijk wel eens weten hoe dat nou precies moest: lesgeven.
+          Dus maar weer vijf jaar terug naar school. Dat hielp, ik had het natuurlijk kunnen weten, niets!
+          Ik zat nu met nog meer vragen dan er voor. Na dertig jaar les geven en onderwijsontwikkeling:
+          van VMBO tot gymnasium, van KMBO opleidingen voor jeugdige crimineeltjes en 4-jarig MBO, tot allerlei
+          HBO-opleidingen, durf ik me wel te wagen aan deze krasse uitspraak over mijn metier. Het Nederlandse
+          onderwijsbestel is een rigide en fantasieloos massaproductiesysteem waarin leerdoelen en -methoden tot
+          stand komen op basis van gebrekkige analyses.
+          Het richtingloos gemor daarover heeft geleid tot een vrijwel permanent proces van vernieuwingen.
+          Een volgende innovatie vindt vaak alweer plaats voordat de mislukking van de vorige fatsoenlijk is
+          geëvalueerd. Zo is ons onderwijs, zou Komrij zeggen, inmiddels onherstelbaar verbeterd.
+        </p>
+        <p>
+          'Sadder and wiser' ging ik met pensioen en verhuisde naar Frankrijk om daar, ver van alle drukte en
+          rumoer, nog eens tien jaar rustig na te denken over mijn ervaringen. De problemen in het onderwijs,
+          zo begon ik te begrijpen, staan niet op zich zelf. En de oplossing is dan ook amper te vinden in de
+          pedagogiek en zeker niet in de onderwijskunde. Daarvoor moeten we ons verdiepen in de wijsbegeerte
+          en de religie. En daarover zal het dan ook nogal eens gaan in de essays op deze website.
+        </p>
+        <p>
+          Laten we tenslotte eindigen met de vraag waarmee we hadden moeten beginnen. Waarom zo'n website?
+          Wat bezielt een mens om ongegeneerd zijn levensloop te etaleren en privé opvattingen te ventileren.
+          Is het alleen maar ijdelheid of hebben de essays op deze site ook nog een andere functie? Ik laat
+          het oordeel aan de bezoeker die ze leest. Het eerste ervan gaat over de zoektocht naar het
+          'zelf' en het trouw blijven aan je eigen beginselen. Het is geweldig lastig, betoog ik daar, om
+          af te dalen naar je ondebewuste om er te zoeken naar hoe je zou moeten leven. Naar wat je
+          werkelijk gelukkig maakt.
+          Naast het creëren rust om je heen en het scheppen van je eigen ruimte (je 40 dagen in de woestijn)
+          helpt het ook om regelmatig je gedachten vast te leggen en daarop van tijd tot tijd te reflecteren.
+          En het openbaar maken ervan lokt, in het beste geval, kritische reacties uit. Zodat je je inzichten
+          kunt slijpen aan de mening van anderen.
+        </p>
+      </div>
+      <div class="container">
+        <a href="#terug" class="btn btn-info btn-sm" role="button">Terug</a>
+      </div>
+      <a name=Vergankelijkheid></a>
+      <div class="container-fluid">
+        <h1>Vergankelijkheid</h1>
+        <p class="kopje">
+          On ne peut accepter de mourir que si l`on sait pourquoi l`on vit. <br>
+          Cantal Delsol: Le souci contemporain 
+        </p>
+        <p>
+          Het was precies op mijn 73e verjaardag dat ik de diagnose blaaskanker kreeg. Ondanks de grauwe verpakking
+          bleek het uiteindelijk een prachtige cadeau. Zoiets als in:
+        </p>
+        <p class="cursiefindent"> Someone once gave me a box full of darkness.<br>
+          It took me years to understand that this too was a gift.
+        </p>
+        <p>
+          Die <span STYLE="font-style: italic;">'darkness'</span> was de indringende confrontatie met de eigen
+          sterfelijkheid. En de <span STYLE="font-style: italic;">'gift'</span>&nbsp; het feit dat je dan bijna wel
+          gedwongen wordt na te gaan welke dingen in je leven nog echt de moeite waard zijn. Want hoe kan immers,
+          zoals Chantal Delsol zegt, een mens rustig sterven als hij niet eens weet waarvoor hij leeft.
+        </p>
+        <p>
+          Zij heeft, maak ik op uit de dingen die ik van en over haar heb gelezen, Kierkegaard goed bestudeerd.
+          Ook die worstelde met hetzelfde soort vragen. In een van zijn eerste dagboeken is te lezen:
+          'Wat ik echt nodig heb is duidelijkheid over wat ik heb te doen; niet wat ik allemaal moet weten…
+          Ik zou willen zien wat mijn bestemming is, begrijpen wat het Opperwezen echt van mij verwacht.
+          Kortom, het vinden van <span STYLE="font-weight: bold;">een waarheid die waar is voor mij</span>,
+          idealen om voor te leven en te sterven. Want wat heb ik er aan als ik de zogenaamde objectieve waarheid
+          zou ontdekken of mij door de filosofische systemen zou worstelen en ze aan iedereen die daarnaar vraagt
+          terstond zou kunnen uiteenzetten. Wat voor zin heeft het een politiek systeem te ontwikkelen en een
+          wereld scheppen waarin ik zelf niet zou leven maar die slechts bedoeld is om aan anderen voor te houden.
+          Wat helpt het me de bijbel te kennen wanneer die niet een diepere betekenis zou hebben voor mij en voor
+          het leven dat ik leid… Het gaat erom dat ik mezelf vind. Want een mens moet voor alles eerst zichzelf
+          leren kennen (gnothi seauton)'
+        </p>
+        <p>
+          <span STYLE="font-weight: bold;">Je zelf vinden</span><br>
+          Hier moeten we twee vragen beantwoorden:<br>
+          <ul>
+            <li>hoe ontstaat ons 'zelf'</li>
+            <li>hoe komen we ermee in contact</li>
+          </ul>
+        </p>
+        <p>
+          Mijn hypothese is dat het 'zelf' zetelt in het onderbewuste en dat het zich ontwikkelt als de som van
+          alle ervaringen die we in ons leven opdoen. En dat zijn er oneindig veel meer dan waarvan we ons
+          bewust zijn. Aldous Huxley beschrijft in zijn boek 'Doors of Perception' (1954) zijn ervaring met
+          het gebruik van mescaline. In zijn benevelde toestand blijkt hij indrukken te kunnen opdoen met een
+          grenzeloze intensiteit. Niet alleen van de individuele meubelstukken in zijn kamer maar ook met
+          betrekking tot hun onderlinge verhoudingen in de ruimte. <span STYLE="font-style: italic;">
+          'I was looking at my furniture, not as the utilitarian who has to sit on chairs, to write at desks...
+          but as the pure aesthete whose concern is only with forms and their relationship within the field
+          of vision ...'</span>
+          En even verder concludeert hij dan dat de functie van ons brein hoofdzakelijk eliminerend is.
+          Iedereen is in staat alles te waar te nemen en in de volle totalitet te onthouden wat hij ooit
+          meemaakte. De functie van het brein is te voorkomen dat we overweldigd worden en verward raken
+          door die oneindige hoeveelheid van, voor het direct functioneren, nutteloze en irrelevante informatie.
+          Zodat we ons kunnen concentreren op dat wat voor het moment praktisch bruikbaar is.
+          <span STYLE="font-style: italic;">'Each one of us is potentially Mind at Large. But in so far as
+          we are animals, our business is at all costs to survive. To make biological survival possible,
+          Mind at Large has to be funneled through the reducing valve of the brain and nervous system.
+          What comes out at the other end is a measly trickle of the kind of consciousness which will help
+          us to stay alive...' </span><br>
+          Maar dat wat niet tot ons bewustzijn doordringt gaat niet verloren. Het wordt opgeslagen in
+          het onderbewuste deel van ons brein. Zodat we in de loop van ons leven dus een bijna oneindig
+          hoeveelheid kennis van de wereld in en om ons heen opbouwen. Het is goed om hier meteen vast te
+          stellen dat die weliswaar deels overeenkomt met kennis die anderen ook hebben, maar daar op andere
+          terreinen volstrekt van kan afwijken.<br>
+          En hoe komen we nu in contact met ons onderbewuste. Op het, naar mijn mening, triviale niveau
+          weten we dat wel. Dan gaat het om intuïtie. Uit onderzoek is gebleken dat, als het om complexe
+          zaken gaat, intuïtieve beslissingen beter uitpakken dan bewust genomen besluiten. Maar hoe kom
+          je tot intuïtieve beslissingen. Hoe boor je gericht de wijsheid van je innerlijke zelf aan.
+          Dat kan door rust en ruimte om je heen te creëren. Door meditatietechnieken. Door vasten.
+          Ook voor ons, hier en nu, haalbare lichtere vormen van '40 dagen in de woestijn'.
+        </p>
+        <p>
+          <span STYLE="font-weight: bold;">En de kanker?</span><br>
+          Met die kanker is het uiteindelijk ongelofelijk goed afgelopen. Direct na de diagnose vond de
+          chirurg dat ik zo snel mogelijk geopereerd moest worden zodat dan de blaas wellicht behouden
+          kon blijven en uitzaaiingen voorkomen. Ik vroeg een second opinion aan en nam me voor  om in
+          ieder geval direct aan mijn eigen herstel te gaan werken. Het boek ‘Anti Kanker’ van
+          Dr. David Servan-Schreiber werd mij leidraad. Geen vlees meer, hoofdzakelijk (rauwe) groenten,
+          alles biologisch, nu en dan vasten, veel sport en beweging in de buitenlucht, Mindfulness Based
+          Stress Reductie  en gezonde relaties aangaan met een kleine kring familie en vrienden.
+          Zes weken later was ik 5 kilo afgevallen en voelde me fitter dan in de twintig jaar daarvoor.
+          Bij de second opinion in het Anthoni van Leeuwenhoek vond men nog steeds kanker maar de T-scores
+          waren lager en de blaas zou zeker behouden kunnen worden. Gelukkig was er een flinke wachtlijst
+          en kon ik nog 6 weken zelf verder werken aan mijn herstel. Toen ik uiteindelijk geopereerd werd
+          bleek de kanker al verdwenen. Een biopt op de plaats waar die gezeten zou hebben wees geen
+          spoortje van kwaadaardig weefsel aan. <br> Dit herstel was dus letterlijk ongelofelijk want
+          als ik vertel dat ik me zelf genezen heb kijken de mensen, met name artsen, mij doorgaans
+          meewarig aan. Discussies daarover vermijd ik liever, In het  uiterste geval verwijs ik naar
+          het boek ‘Radical remission’ van Dr. Kelly Turner waarin duizenden soortgelijke gevallen
+          beschreven worden. Er zijn, zegt zij, wel 75 factoren die een rol spelen bij het herstel op
+          eigen kracht. Daarvan zijn er 9 wel erg prominent:
+          <ol>
+            <li>Radically changing your diet</li>
+            <li>Taking control of you health</li>
+            <li>Following your intuition</li>
+            <li>Using herbs and supplements</li>
+            <li>Releasing suppressed emotions</li>
+            <li>Increasing positive emotions</li>
+            <li>Embracing social support</li>
+            <li>Deepening your spiritual connection</li>
+            <li>Having strong reasons for living.</li>
+          </ol>
+        </p>
+        <p>
+          <span STYLE="font-weight: bold;">Goede voornemens</span><br>
+          Een andere leefstijls is niet altijd eenvoudig vol te houden, dat weet iedereen. Maar je kunt wel
+          voorwaarden scheppen die het je gemakkelijker maken. Wij wonen in een oude boerderij vlak bij de
+          bossen waar we kunnen wandelen met de honden en waar een mooie lange MTB-trail ligt. Van de paar
+          hectare land om ons heen is ruim 1000 vierkante meter vrij gemaakt voor een biologische groente-
+          en kruidentuin. We vermijden alle drukte, evenementen en andere ‘leukigheden’, ondernemen geen
+          lange reizen meer en brengen onze vakanties door op natuurcampings. <br>
+          Er zijn veel beesten om te verzorgen. We hebben familie en een kleine vriendenkring die wij
+          ontmoeten zonder dat we daar faceboek bij nodig hebben. En er is altijd iets te leren. Via de
+          vrijwel onbeperkte hoeveelheid MOOCs (Massive Open Online Courses) van on-line universities als
+          Coursera, Udemy en vele andere. Ergens geconcentreerd mee bezig zijn, iets presteren, geeft me
+          nog steeds grote voldoening. Maar het belangrijkste is het vastleggen van mijn voornemens
+          en de realisatie ervan. Als ik iets leer schrijf ik er meteen een lesboek over. En verder houd ik
+          dagboekjes bij. Deze website speelt als zodanig ook een rol.
+        </p>
+      </div>
+      <div class="container">
+        <a href="#terug" class="btn btn-info btn-sm" role="button">Terug</a>
+      </div>
+    </div>
+    <a name="kontakt"></a>
+    <div class="container-fluid">
+      <div class="mx-auto" style="width: 200px;">
+        <p>
+          <h1>Contact</h1>
+          drs. H.W. Heringa<br>
+          Witkoelenweg 4 <br>
+          9537 TE Eesergroen<br>
+          Tel: 0599785640<br>
+          <a class="btn btn-primary btn-sm" href="mailto:hermanheringa@gmail.com"> Mail me</a>
+        </p> <br>
+      </div>
+    </div>
+    </div>
+  </section>
 </body>
 
 </html>
