@@ -6,32 +6,44 @@ body{
 
 h1{
   font-family: "Montserrat-Black";
+  font-weight: bold;
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.3;
+  margin: 0 ;
 }
 
 h2{
   font-family: "Montserrat-Black";
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin: 0 ;
+}
+
+h3{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin: 0 ;
 }
 
 p{
   font-family: "Montserrat-Black";
   font-size: 1rem;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .kopje{
   font-size: 0.8rem;
-  line-height: 1.3;
+  line-height: 1.1;
   text-align: right;
 }
 .container-fluid{
   padding: 5% 0 1% 0;
 }
 .navbar{
-padding: 0 0 0;
+padding: 0;
 }
 .navbar-brand{
   font-family: "ubuntu";
@@ -42,17 +54,34 @@ padding: 0 0 0;
 }
 
 .plaatje{
-  width: 80%;
-  height: 60%;
+  max-width: 90%;
+  height: auto;
 }
 
 .my-navbar {
   background-color: #84942B;
   color: #FFFFCC;
 }
-.cursiefindent{
-  margin: 0 0 10px 20px;
+
+.cursief{
+  margin: 0 0 10px 10px;
   font-style: italic;
+}
+
+.cursiefindent{
+  margin: 0 5px 5px 0;
+  font-style: italic;
+  border:1px;
+  border-style:solid;
+  padding: 0.5em;
+  border-color:#84942B;
+}
+
+#lijstje{
+  margin: 1px 1px 1px 2px;
+  font-family: "Montserrat-Black";
+  font-size: 1rem;
+  line-height: 1.2;
 }
 .btn-primary {
   background-color: #84942B;
@@ -63,5 +92,8 @@ padding: 0 0 0;
   color: #FFFFCC;
 }
 .mx-auto{
-  text-align: center
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.2;
 }
